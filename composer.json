@@ -1,0 +1,28 @@
+{
+    "name": "woeplanet/woeplanet-docs",
+    "description": "The source for https://docs.woeplanet.com",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "Gary Gale",
+        "email": "gary@vicchi.org"
+    }],
+    "repositories": [{
+            "type": "vcs",
+            "url": "https://github.com/woeplanet/woeplanet-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/woeplanet/woeplanet-tools"
+
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "woeplanet/woeplanet-api": "dev-master",
+        "woeplanet/woeplanet-tools": "dev-master"
+    },
+    "archive": {
+        "exclude": ["vendor", ".DS_Store", "*.log"]
+    }
+}

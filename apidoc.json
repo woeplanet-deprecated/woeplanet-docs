@@ -1,0 +1,17 @@
+{
+    "name": "woeplanet-api",
+    "version": "1.0.0",
+    "description": "The Woeplanet RESTFul API",
+    "title": "Woeplanet API",
+    "url": "https://api.woeplanet.com",
+    "order": [
+        "Places",
+        "Placetpes",
+        "Search",
+        "Meta"
+    ],
+    "template": {
+        "withCompare": false,
+        "withGenerator": false
+    }
+}
